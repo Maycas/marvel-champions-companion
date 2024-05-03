@@ -1,30 +1,56 @@
-# React + TypeScript + Vite
+# Marvel Champions Companion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Marvel Champions Companion App! 
 
-Currently, two official plugins are available:
+This application is designed to enhance your Marvel Champions: The Card Game experience by providing a digital tool to easily track the lives of both heroes and villains during gameplay.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is an in progress project that will be updated with new features in the future.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Version 1.0 will contain:
 
-- Configure the top-level `parserOptions` property like this:
+- Character Life Tracking: Track the life points of each hero character in play.
+- Villain Life Tracking: Monitor the life points of the game's villain.
+- Easy Interface: Simple, user-friendly interface for quick updates during your game session.
+- Multi-Character Support: Supports tracking for multiple characters and villains simultaneously.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Installing
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+Before installation, make sure you have the following tools installed:
+- Node.js (Download at [Node.js official site](https://nodejs.org/))
+- npm, which comes with Node.js
+
+You can check if they are already on your system with:
+
+```bash
+node --version
+npm --version
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Setting up the Project
+
+1. **Clone the Repository**
+
+   Clone the repository to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/Maycas/marvel-champions-companion
+   ```
+
+2. **Navigate to the App folder and install dependencies**
+
+   ```bash
+   cd marvel-champions-companion-app
+   npm install
+   ```
+   
+3. **Run the app**
+   
+   ```bash
+   npm run dev
+   ```  
