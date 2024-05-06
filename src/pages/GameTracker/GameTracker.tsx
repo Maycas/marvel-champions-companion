@@ -1,12 +1,12 @@
 import Container from '../../components/Container/Container';
-import Counter from '../../components/Counter/Counter';
+import CharacterCounter from '../../components/Counter/CharacterCounter';
 
 
 export default function GameTracker() {
   return (
     <Container direction='column'>
-      <Counter />
-      <Counter />
+      <CharacterCounter lives={20} />
+      <CharacterCounter lives={25}/>
     </Container>
   );
 }

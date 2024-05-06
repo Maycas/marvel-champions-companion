@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-export const Button = styled.button`
+export const Button = styled.button.attrs((props) => ({
+  className: props.className,
+}))`
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -18,6 +20,11 @@ export const Button = styled.button`
   &:focus,
   &:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
+  }
+
+  &.action {
+    background-color: red;
+    font-size: 1.75em;
   }
 
   @media (prefers-color-scheme: light) {
