@@ -6,6 +6,7 @@ export const Container = styled.section<{ direction?: 'column' | 'row' }>`
   display: flex;
   align-items: center;
   flex-direction: ${({ direction }) => direction};
+  gap: 10px;
 
   @media (orientation: landscape) {
     & {
