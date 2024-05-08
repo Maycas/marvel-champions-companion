@@ -1,4 +1,31 @@
 .heroes,
 .villains {
-  height: calc(100% - 1em);
+  display: flex;
+  gap: 10vw;
+}
+
+@media (orientation: portrait) {
+  .heroes,
+  .villains {
+    height: 50%;
+    width: 100vw;
+
+    margin: 0;
+    flex-direction: row;
+    
+    overflow-y: hidden;
+    overflow-x: auto;
+    
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media (orientation: landscape) {
+  .heroes,
+  .villains {
+    height: 100%;
+    
+    flex-direction: column;
+  }
 }

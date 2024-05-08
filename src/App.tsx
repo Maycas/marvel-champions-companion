@@ -1,13 +1,9 @@
-import GameTracker from './pages/GameTracker/GameTracker'
+import GameTracker from './pages/GameTracker/GameTracker';
 
-import './App.css'
-
+import './App.css';
 
 function App() {
-
-  return (
-    <GameTracker />
-  )
+  return <GameTracker />;
 }
 
-export default App
+export default App;
