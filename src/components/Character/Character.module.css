@@ -71,6 +71,7 @@
   .characterContainer {
     margin: 0 0.3em;
     flex: none;
+    width: 48vw;
   }
 
   .livesInput {
