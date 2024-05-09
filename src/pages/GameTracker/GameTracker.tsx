@@ -8,20 +8,8 @@ export default function GameTracker() {
     <Container direction='column'>
       <div className={styles.villains}>
         <Character name='Rino' lives={14} colors={['#727070']} />
-        <Character name='Rino' lives={14} colors={['#727070']} />
-        <Character name='Rino' lives={14} colors={['#727070']} />
       </div>
       <div className={styles.heroes}>
-        <Character
-          name='Spiderman'
-          lives={10}
-          colors={['#982828', '#2b3681']}
-        />
-        <Character
-          name='Spiderman'
-          lives={10}
-          colors={['#982828', '#2b3681']}
-        />
         <Character
           name='Spiderman'
           lives={10}

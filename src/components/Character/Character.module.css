@@ -1,8 +1,9 @@
 .characterContainer {
   height: 100% ;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  flex: 0 0 90vw;
+  flex: 0 0 90%;
   align-items: center;
   border-radius: 5%;
   padding: 0 1em;
@@ -52,8 +53,9 @@
   text-align: center;
   font-size: 2.5em;
   max-width: 30vw;
+  max-height: 3.5em;
   height: 12vh;
-  border-radius: 20%;
+  border-radius: 10%;
   background-color: rgba(100, 100, 100, 0.8);
   -webkit-appearance: none; 
   -moz-appearance: none; 
@@ -67,8 +69,6 @@
 
 @media (orientation: landscape) {
   .characterContainer {
-    height: 100%;
-    width: 48vw;
     margin: 0 0.3em;
     flex: none;
   }
